@@ -1,0 +1,30 @@
+{
+  "name": "noteappcheckpoint",
+  "version": "1.0.0",
+  "description": "",
+  "main": "App.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/SarahBechi/note-app.git"
+  },
+  "keywords": [
+    "node"
+  ],
+  "author": "Sarah Bechi",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/SarahBechi/note-app/issues"
+  },
+  "homepage": "https://github.com/SarahBechi/note-app",
+  "dependencies": {
+    "yargs": "^15.1.0"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
+  }
+}
